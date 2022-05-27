@@ -55,7 +55,7 @@ function Widget() {
   return (
     <WidgetContainer >
         {isWidgetOpen && <WidgetList>
-        <Link href="/HomePage"><a >Home</a></Link>
+        <Link href="/"><a >Home</a></Link>
         <Link href="/servicos"><a >Serviços</a></Link>
         <Link href="/about"><a>Sobre Nós</a></Link>
         </WidgetList> }
