@@ -1,6 +1,3 @@
-import Image from "next/image";
-import clementino from "../public/images/clementino.png"
-import edmauro from "../public/images/edmauro.png"
 import styled from '@emotion/styled'
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -31,66 +28,7 @@ export default function about() {
     margin-left: 30px;
     `;
 
-    const Title = styled.h3`
-    text-align: center;
-    font-weight: 500;
-    `;
 
-    const Title2 = styled.h3`
-    text-align: center;
-    font-weight: 500;
-    color: #fff;
-    `;
-
-    const Boxs = styled.div`
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-    @media (max-width: 470px){
-      flex-direction: column;
-      flex-wrap: wrap;
-    }
-    `;
-
-    const Box1 = styled.div`
-    display: flex;
-    width: 30%;
-    height: 25vh;
-    background: #2c73c5;
-    border-radius: 20px;
-    margin: 10px;
-    > p {
-        text-align: justify;
-        font-weight: 400;
-        margin-left: 70px;
-        margin-top: 40px;
-        color: #fff;
-    }
-
-    @media (max-width: 470px){
-      flex-direction: column;
-      flex-wrap: wrap;
-    }
-    `;
-
-  const Box2 = styled.div`
-  display: flex;
-  width: 30%;
-  height: 25vh;
-  background: #2c73c5;
-  border-radius: 20px;
-  margin: 10px;
-  > p {
-      text-align: justify;
-      font-weight: 400;
-      margin-left: 70px;
-      margin-top: 40px;
-      color: #fff;
-  }
-
-  `;
   return (
     <>
     <Navbar />
@@ -109,26 +47,6 @@ export default function about() {
                      oportunidades para o desenvolvimento das tecnologias do nosso pais.
                 </p>
             </Text>
-            <Boxs>
-            <Box1>
-                    <Image src={edmauro} width={100} height={200} alt="imagem de uma pessoa"/>
-                    <p>Edmauro Goma <br/>
-                        Co-Fundador<br/>
-                        CTO
-                        Desenvolvidor FullStack<br/>
-                        Web e Mobile<br>
-                        </br>
-                    </p>
-                </Box1>
-                <Box2>
-                    <Image src={clementino} width={100} height={200} alt="imagem de uma pessoa"/>
-                    <p>Clementino <br/>
-                    Fundador <br/>
-                    Administrador de Redes<br/>
-                    Tecnico CCTV
-                    </p>
-                </Box2>
-        </Boxs>
         <Footer />
         </HomeSection3>
     </>
