@@ -43,7 +43,6 @@ export default function HomePage() {
     justify-content: center;
     align-items: center;
     margin: 20px;
-    flex-wrap:wrap;
     > h1 {
         text-align: center;
         font-weight: 300;
