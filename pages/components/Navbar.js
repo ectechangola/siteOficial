@@ -46,7 +46,7 @@ export default function Navbar() {
         </NavLogo>
         <NavLinks>
 
-              <Link href="/"><a>Home</a></Link>
+              <Link href="/home"><a>Home</a></Link>
 
 
               <Link href="/servicos"><a>Serviços</a></Link>

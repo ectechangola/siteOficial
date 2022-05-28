@@ -49,7 +49,7 @@ function Widget() {
   return (
     <WidgetContainer >
         {isWidgetOpen && <WidgetList>
-        <Link href="/index"><a >Home</a></Link>
+        <Link href="/Home"><a >Home</a></Link>
         <Link href="/servicos"><a >Serviços</a></Link>
         <Link href="/about"><a>Sobre Nós</a></Link>
         </WidgetList> }
