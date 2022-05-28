@@ -70,7 +70,7 @@ export default function Home() {
         <MainText>
           <h1>LANÇAMOS OS SEUS <br/>  PRODUTOS E A SUA <br/> EMPRESA  NO MUNDO DIGITAL</h1>
           <p>Provemos o melhor serviço para sua empresa e para seus progetos pessoais</p>
-          <button><Link href='/HomePage'>Saiba mais</Link></button>
+          <button><Link href='/Home'>Saiba mais</Link></button>
           <div>
             <Link href="http://github.io">
               <a>
