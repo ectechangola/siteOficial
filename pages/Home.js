@@ -57,7 +57,7 @@ export default function HomePage() {
 
     const SectionItem = styled.div`
     width:100%;
-    height: 60vh;
+    height: 80vh;
     box-shadow: 1px 1px 3px 2px gray;
     margin: 10px;
     border-radius: 5px;
