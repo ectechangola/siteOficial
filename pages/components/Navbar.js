@@ -51,7 +51,9 @@ export default function Navbar() {
       </Head>
       <NavContainer>
         <NavLogo>
-          <Image src={emblem}  width={100} height={100} alt="logo do site"/>
+          <Link href="/">
+            <Image src={emblem}  width={100} height={100} alt="logo do site"/>
+          </Link>
         </NavLogo>
         <NavLinks>
 
