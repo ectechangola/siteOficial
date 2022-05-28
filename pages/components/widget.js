@@ -33,12 +33,6 @@ function Widget() {
     }
     `;
 
-    const WidgetItem = styled.div`
-    `;
-
-    const WidgetIcon = styled.div`
-    `;
-
     const WidgetList = styled.div`
     display: flex;
     transition: .6s all;
@@ -55,18 +49,13 @@ function Widget() {
   return (
     <WidgetContainer >
         {isWidgetOpen && <WidgetList>
-        <Link href="/"><a >Home</a></Link>
+        <Link href="/Home"><a >Home</a></Link>
         <Link href="/servicos"><a >Serviços</a></Link>
         <Link href="/about"><a>Sobre Nós</a></Link>
         </WidgetList> }
         <WidgetButton onClick={toggleWidgetVisibility} >
             <List size={24}/>
 
-            <WidgetItem>
-                <WidgetIcon>
-
-                </WidgetIcon>
-            </WidgetItem>
         </WidgetButton>
     </WidgetContainer>
   )

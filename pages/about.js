@@ -28,10 +28,16 @@ export default function about() {
     margin-left: 30px;
     `;
 
+    const Title = styled.div`
+    text-align: center;
+    `;
 
   return (
     <>
     <Navbar />
+    <Title>
+      <h1>Sobre nós</h1>
+    </Title>
     <HomeSection3>
             <Text>
                 <p>

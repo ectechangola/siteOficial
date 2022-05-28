@@ -23,28 +23,31 @@ function serviços() {
         font-weight: 300;
     }
 
-    @media (max-width: 470px) {
+    @media (max-width: 570px) {
+      flex-wrap: wrap;
       flex-direction: column;
       margin-top: 5rem;
     }
     `;
 
     const SectionItem = styled.div`
-    width:100%;
-    height: 60vh;
+    width: 80%;
+    height: 80vh;
     box-shadow: 1px 1px 3px 2px gray;
-    margin: 10px;
+    margin: 20px;
     border-radius: 5px;
+    flex-wrap: wrap;
     > h3 {
         text-align: center;
         font-weight: 500;
     }
     >p {
         text-align: justify;
-        margin: 30px;
+        margin: 20px;
         font-weight: 300;
     }
-    @media(max-width: 470px){
+    @media(max-width: 570px){
+      font-size: 1em;
       max-height: max-content;
       max-width: max-content;
       align-content: center;
@@ -52,12 +55,32 @@ function serviços() {
     }
     `;
 
+    const Title = styled.div`
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    `;
+
+    const Text = styled.div`
+    > h4 {
+        font-weight: 400;
+        text-align: justify;
+    }
+    `;
 
   return (
       <>
     <Navbar />
+    <Title>
+        <h1>Serviços</h1>
+    </Title>
+    <Text>
+    <h4>Prestamos os nossos serviços ao melhor preço do mercado, transmitindo mais confiança aos nossos parceiros e clientes,
+           usamos metodologias ageis para o Desenvolvimento dos Projetos e a mais rapida entrega dos trabalhos. <br/>
+        </h4>
+    </Text>
     <HomeSection>
-
+        
         <SectionItem>
             <Image src={networking} alt="imagem de redes de computadores" />
             <h3>Redes de Computadores</h3>
