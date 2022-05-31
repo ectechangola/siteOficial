@@ -58,6 +58,8 @@ export default function Home() {
   return (
         <Main> 
        <Head>
+       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9010224056633281"
+     crossorigin="anonymous"></script>
         <title>EC.TECH Angola</title>
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
