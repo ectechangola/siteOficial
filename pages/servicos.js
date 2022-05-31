@@ -64,6 +64,7 @@ function serviços() {
 
     const Text = styled.div`
     > h4 {
+        padding: 50px;
         font-weight: 400;
         text-align: justify;
     }

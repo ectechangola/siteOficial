@@ -15,7 +15,6 @@ export default function about() {
         font-weight: 400;
     }
     @media (max-width: 470px){
-      display: flex;
       flex-direction: column;
       flex-wrap:wrap;
     }
